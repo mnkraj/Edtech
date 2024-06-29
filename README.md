@@ -39,4 +39,4 @@ The gurukul was created by Mayank Raj. Special thanks to Love Babbar Bhaiya and 
 
 ## Contact
 
-If you have any questions or suggestions regarding this project, please feel free to contact Email - mayankraj7100@gmail.com@gmail.com.    
+If you have any questions or suggestions regarding this project, please feel free to contact Email - mayankraj7100@gmail.com
