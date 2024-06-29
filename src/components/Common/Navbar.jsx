@@ -106,7 +106,17 @@ function Navbar() {
                   </Link>
                 )}
               </li>
+              
             ))}
+            <li>
+            <a href="https://github.com/mnkraj/Edtech">
+                    <p
+                      className={`text-richblack-25`}
+                    >
+                      Repository
+                    </p>
+                  </a>
+            </li>
           </ul>
         </nav>
         {/* Login / Signup / Dashboard */}
