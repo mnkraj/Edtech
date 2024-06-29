@@ -25,12 +25,21 @@ database.connect();
 // Middlewares
 app.use(express.json());
 app.use(cookieParser());
-app.use(
-	cors({
-		origin: "*",
-		credentials: true,
-	})
-);
+const allowedOrigins = [
+	"https://gurukul-edtech.vercel.app",
+	"https://edtech-roan.vercel.app",
+  ];
+  
+  app.use(cors({
+	origin: function (origin, callback) {
+	  if (allowedOrigins.includes(origin) || !origin) {
+		callback(null, true);
+	  } else {
+		callback(new Error('Not allowed by CORS'));
+	  }
+	},
+	methods: "GET"
+  }));
 app.use(
 	fileUpload({
 		useTempFiles: true,
