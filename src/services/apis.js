@@ -1,4 +1,4 @@
-const BASE_URL = "https://edtech-serverr.vercel.app"
+const BASE_URL = "https://edtech-serverr.vercel.app/api/v1"
 
 // AUTH ENDPOINTS
 export const endpoints = {
