@@ -4,7 +4,7 @@ Welcome to the gurukul EdTech Platform Repository!
 
 This comprehensive repository houses the backbone of the revolutionary gurukul EdTech platform – a dynamic and feature-rich MERN stack application that is set to reshape the landscape of online education. With a seamless blend of technology and education, gurukul empowers both instructors and students, fostering a vibrant learning community.
 
-* Project Link :- https://gurukul-edtech-project.vercel.app/
+* Project Link :- https://gurukul-edtech.vercel.app
 
 ## Features
 
