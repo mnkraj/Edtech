@@ -38,7 +38,7 @@ const allowedOrigins = [
 		callback(new Error('Not allowed by CORS'));
 	  }
 	},
-	methods: "GET"
+	methods: "*"
   }));
 app.use(
 	fileUpload({
